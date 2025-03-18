@@ -21,3 +21,17 @@ Release 1.6.0:
 
 Release 1.5.1: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3338175.svg)](https://doi.org/10.5281/zenodo.3338175)
 
+
+# Run the code
+
+1. git clone --recursive https://github.com/avaxman/Directional.git
+2.  To compile it, go to the tutorial folder, open a shell and call:
+    mkdir build
+    cd build
+    cmake -DCMAKE_BUILD_TYPE=Release ../
+    make (use cmake)
+3. 301 is PowerVector, refer to **Modeling n-Symmetry Vector Fields using Higher-Order Energies**.
+4. 302 is PolyVector, refer to  **Designing N-PolyVector Fields with Complex Polynomials**.
+
+
+
